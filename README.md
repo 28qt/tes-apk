@@ -23,11 +23,13 @@ This is a React application built with Vite that has been set up to be packaged 
 ### Getting Started
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
 
 2. Run development server:
+
    ```bash
    npm run dev
    ```
@@ -48,11 +50,13 @@ This is a React application built with Vite that has been set up to be packaged 
 ### Steps to Build APK
 
 1. Sync and build the APK:
+
    ```bash
    npm run build:apk
    ```
 
    Or manually:
+
    ```bash
    npm run build          # Build web app
    npx cap sync          # Sync with Android
@@ -110,11 +114,13 @@ Every time you push code to the `main` branch, GitHub Actions automatically:
 ## Troubleshooting
 
 ### APK Build Fails
+
 - Ensure Java JDK 11+ is installed: `java -version`
 - Update Android SDK: Open Android Studio → SDK Manager
 - Clear Gradle cache: `rm -rf android/.gradle` (then rebuild)
 
 ### App Crashes on Launch
+
 - Check that the `dist/` folder exists
 - Run `npm run sync` to update web assets
 - Check Android Studio for detailed error logs
