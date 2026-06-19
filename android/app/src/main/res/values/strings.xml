@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">tes-apk</string>
+    <string name="title_activity_main">tes-apk</string>
+    <string name="package_name">com.qt28.tesapk</string>
+    <string name="custom_url_scheme">com.qt28.tesapk</string>
+</resources>
